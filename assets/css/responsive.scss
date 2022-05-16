@@ -1,0 +1,204 @@
+/*
+    * Project Name : EstateX - Real Estate Website
+    * Designed & Coded by : 'Gulshan Songara'
+*/
+
+/*--====== 01) XXL Devices ======--*/
+@media (min-width: 1600px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+
+/*--====== 02) XL Devices ======--*/
+@media (max-width: 1399.98px) {
+
+    /*--- Common Styles ---*/
+    .container {
+        max-width: 1160px;
+    }
+}
+
+
+/*--====== 03) Lg Devices ======--*/
+@media (max-width: 1199.98px) {
+
+    /*--- Common Styles ---*/
+    .container {
+        max-width: 980px;
+    }
+
+}
+
+
+/*--====== 04) Md Devices ======--*/
+@media (max-width: 991.98px) {
+
+    /*--- Common Styles ---*/
+    .container {
+        max-width: 740px;
+    }
+
+    /*--- Header Section ---*/
+    .default_navbar,
+    .sticky_navbar {
+        display: none;
+    }
+
+    .mob_navbar {
+        display: block;
+    }
+
+    /*--- Sidebar Section ---*/
+    #sidebar {
+        display: block;
+    }
+
+    /*--- Search Box Section ---*/
+    #searchbox {
+        width: 90%;
+        padding: 1.8rem;
+    }
+
+    /*--- Services Section ---*/
+    .services_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*--- City Section ---*/
+    .city_wrapper {
+        grid-template-rows: repeat(4, 200px);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .city_item_1,
+    .city_item_5 {
+        grid-row: unset;
+    }
+
+    .city_item_3,
+    .city_item_4,
+    .city_item_6 {
+        grid-column: unset;
+    }
+
+    .city_item_7 {
+        grid-column: span 2;
+    }
+
+    /*--- Subscribe Section ---*/
+    .subs_wrapper {
+        width: 100%;
+    }
+
+    /*--- Footer Section ---*/
+    .footer_wrapper {
+        grid-template-columns: 1fr .5fr;
+    }
+
+}
+
+
+/*--====== 05) Sm Devices ======--*/
+@media (max-width: 767.98px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    /*--- Common Styles ---*/
+    .container {
+        max-width: 560px;
+    }
+
+    /*--- Hero Section ---*/
+    #hero {
+        min-height: 90vh;
+    }
+
+    /*--- Search Box Section ---*/
+    #searchbox {
+        width: 80%;
+        margin: -10px auto 20px;
+        padding: 3rem;
+    }
+
+    .searchform {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .select_box .nice-select,
+    .search_btn {
+        font-size: 1rem;
+    }
+
+    /*--- Subscribe Section ---*/
+    .subs_wrapper {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        text-align: center;
+    }
+
+}
+
+
+/*--====== 06) Xs Devices ======--*/
+@media (max-width: 575.98px) {
+
+    html {
+        font-size: 13px;
+    }
+
+    /*--- Common Styles ---*/
+    .container {
+        width: 100%;
+    }
+
+    /*--- Hero Section ---*/
+    .hero_btn_wrapper {
+        width: 80%;
+    }
+
+    /*--- Search Box Section ---*/
+    #searchbox {
+        width: 90%;
+    }
+
+    /*--- Services Section ---*/
+    .services_wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    /*--- City Section ---*/
+    .city_wrapper {
+        grid-template-rows: repeat(7, 180px);
+        grid-template-columns: 1fr;
+    }
+
+    .city_item_7 {
+        grid-column: unset;
+    }
+
+    /*--- Account Modal ---*/
+    .account_swiper {
+        width: 350px;
+    }
+
+    /*--- Footer Section ---*/
+    .footer_wrapper {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .foot_about {
+        padding-right: unset;
+    }
+
+    .foot_copy {
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+}

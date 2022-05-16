@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstateX - Real Estate Property Site</title>
+    <!--====== Designed & Built by : Gulshan Songara ======-->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css">
+
+    <!-- Nice-select -->
+    <link rel="stylesheet" href="assets/nice-select/css/nice-select2.css">
+
+    <!-- Main Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!--====== Preloader ======-->
+    <div id="preloader">
+        <div class="loader"></div>
+        <span class="loader_text">Loading...</span>
+    </div>
+    <!-- /Preloader Ends -->
+
+    <!--====== Header Section ======-->
+    <header id="header">
+
+        <!--- Default-Navbar --->
+        <div class="default_navbar">
+            <div class="container">
+
+                <div class="navbar nav_top">
+                    <div class="nav_logo">
+                        <h4><a href="javascript:void(0);">EstateX</a></h4>
+                    </div>
+                    <div class="nav_actions">
+                        <ul>
+                            <li>
+                                <a href="tel:+">
+                                    <i class='bx bxs-phone'></i>
+                                    <span>1800 11 9099</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="mailto:">
+                                    <i class='bx bxs-envelope'></i>
+                                    <span>info@estatex.com</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="javascript:void(0);" class="account_modal_btn">
+                                    <i class='bx bxs-user'></i>
+                                    <span>Login / Register</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="listing.html" class="btn post_btn">
+                                    <i class='bx bx-list-plus'></i>
+                                    <span>Post Property</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="navbar nav_bottom">
+                    <nav class="navlinks">
+                        <ul>
+                            <li><a href="#">Buy / Rent</a></li>
+                            <li><a href="#property">Properties</a></li>
+                            <li><a href="javascript:void(0);">Dealers</a></li>
+                            <li><a href="#blog">Blogs</a></li>
+                            <li><a href="#footer">Help</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+
+        <!--- Sticky-Navbar --->
+        <div class="sticky_navbar">
+            <div class="container">
+
+                <div class="navbar nav_sticky">
+                    <div class="nav_logo">
+                        <h4><a href="javascript:void(0);">EstateX</a></h4>
+                    </div>
+
+                    <form class="sticky_search_form">
+                        <div class="sticky_select_location">
+                            <i class='bx bxs-map'></i>
+                            <select>
+                                <option value="All India">All India</option>
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Delhi / NCR">Delhi / NCR</option>
+                                <option value="Bangalore">Bangalore</option>
+                                <option value="Kolkata">Kolkata</option>
+                                <option value="Ahmedabad">Ahmedabad</option>
+                                <option value="Chennai">Chennai</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                            </select>
+                        </div>
+
+                        <div class="sticky_select_status">
+                            <select>
+                                <option value="Buy">Buy</option>
+                                <option value="Rent">Rent</option>
+                            </select>
+                        </div>
+
+                        <div class="sticky_search_field">
+                            <input type="search" placeholder="Search Property">
+                            <button type="button" class="sticky_search_btn"><i class='bx bx-search'></i></button>
+                        </div>
+                    </form>
+
+                    <div class="nav_actions sticky_actions">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0);" class="account_modal_btn">
+                                    <i class='bx bxs-user'></i>
+                                    <span>Login / Register</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="listing.html" class="btn post_btn">
+                                    <i class='bx bx-list-plus'></i>
+                                    <span>Post Property</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--- Mobile-Navbar --->
+        <div class="mob_navbar">
+            <div class="container">
+                <div class="navbar nav_mob">
+                    <div class="nav_logo">
+                        <h4><a href="javascript:void(0);">EstateX</a></h4>
+                    </div>
+
+                    <div class="sidebar_btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- /Header Ends -->
+
+    <!--====== Sidebar Section ======-->
+    <aside id="sidebar">
+        <div class="sidebar_content sidebar_head">
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" class="account_modal_btn">
+                        <i class='bx bxs-user'></i>
+                        <span>Login / Register</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="listing.html" class="btn post_btn">
+                        <i class='bx bx-list-plus'></i>
+                        <span>Post Property</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sidebar_content sidebar_main">
+            <nav class="side_navlinks">
+                <ul>
+                    <li><a href="#">Buy / Rent</a></li>
+                    <li><a href="#property">Properties</a></li>
+                    <li><a href="javascript:void(0);">Dealers</a></li>
+                    <li><a href="#blog">Blogs</a></li>
+                    <li><a href="#footer">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="sidebar_content sidebar_foot">
+            <ul>
+                <li>
+                    <a href="tel:+">
+                        <i class='bx bxs-phone'></i>
+                        <span>1800 11 9099</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mailto:">
+                        <i class='bx bxs-envelope'></i>
+                        <span>info@estatex.com</span>
+                    </a>
+                </li>
+            </ul>
+
+            <p class="side_copyright">&#169;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                &#160;EstateX. All Rights Reserved.
+            </p>
+        </div>
+
+        <div class="close_btn sidebar_close_btn">
+            <span></span>
+            <span></span>
+        </div>
+    </aside>
+    <!-- /Sidebar Ends -->
+
+    <main>
+
+        <!--====== Hero Section ======-->
+        <section id="hero">
+            <div class="hero_content">
+                <h1>Find your next dream Home</h1>
+                <h3>- We provide right choice of properties that you need -</h3>
+
+                <div class="hero_btn_wrapper">
+                    <div class="point"></div>
+
+                    <button type="button" class="hero_btn buy_btn">Buy</button>
+                    <button type="button" class="hero_btn rent_btn">Rent</button>
+                </div>
+            </div>
+        </section>
+        <!-- /Hero Ends -->
+
+        <!--====== Search Box ======-->
+        <section id="searchbox" class="card">
+            <form action="" class="searchform">
+                <div class="select_box select_location">
+                    <select id="a-select">
+                        <option value="All India">All India</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Delhi / NCR">Delhi / NCR</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Ahmedabad">Ahmedabad</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                    </select>
+                </div>
+
+                <div class="select_box select_type">
+                    <select id="b-select">
+                        <option value="Apartment">Apartment</option>
+                        <option value="Residential">Residential</option>
+                        <option value="Commercial">Commercial</option>
+                        <option value="Family House">Family House</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="select_box select_budget">
+                    <select id="c-select">
+                        <option value="5 Lacs">₹ 5 Lacs</option>
+                        <option value="10 Lacs">₹ 10 Lacs</option>
+                        <option value="20 Lacs">₹ 20 Lacs</option>
+                        <option value="30 Lacs">₹ 30 Lacs</option>
+                        <option value="40 Lacs">₹ 40 Lacs</option>
+                        <option value="50 Lacs">₹ 50 Lacs</option>
+                        <option value="60 Lacs">₹ 60 Lacs</option>
+                        <option value="70 Lacs">₹ 70 Lacs</option>
+                        <option value="80 Lacs">₹ 80 Lacs</option>
+                        <option value="90 Lacs">₹ 90 Lacs</option>
+                        <option value="1 Cr">₹ 1 Cr & above</option>
+                    </select>
+                </div>
+
+                <button type="button" class="btn btn_load search_btn">
+                    <span class="btn_txt"><i class='bx bx-search'></i> Search</span>
+                </button>
+            </form>
+        </section>
+        <!-- /Search Box Ends -->
+
+        <!--====== Property Section ======-->
+        <section id="property" class="section">
+            <div class="container">
+                <div class="title">
+                    <h2>Featured Properties</h2>
+                    <p>- Handpicked residential projects -</p>
+                </div>
+
+                <div class="swiper property_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="property_img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/property/prop1.jpg" alt="property-img">
+                                </a>
+                                <span class="badge">Featured</span>
+                            </div>
+
+                            <div class="card property_details">
+                                <div class="property_price">
+                                    <b>₹ 45 Lacs - 2.68 Cr</b>
+                                </div>
+
+                                <div class="property_info">
+                                    <h3><a href="javascript:void(0);">Modern Apartment</a></h3>
+                                    <p>Sector 7, Dwarka, New Delhi</p>
+                                </div>
+
+                                <div class="property_feature">
+                                    <span>2, 3 BHK Apartment</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="property_img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/property/prop2.jpg" alt="property-img">
+                                </a>
+                                <span class="badge">Featured</span>
+                            </div>
+
+                            <div class="card property_details">
+                                <div class="property_price">
+                                    <b>₹ 25 Lacs - 3.50 Cr</b>
+                                </div>
+
+                                <div class="property_info">
+                                    <h3><a href="javascript:void(0);">Princess Valley</a></h3>
+                                    <p>Star Colony, Hyderabad</p>
+                                </div>
+
+                                <div class="property_feature">
+                                    <span>1, 2, 3 BHK Apartment</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="property_img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/property/prop3.jpg" alt="property-img">
+                                </a>
+                                <span class="badge">Featured</span>
+                            </div>
+
+                            <div class="card property_details">
+                                <div class="property_price">
+                                    <b>₹ 1.26 - 4.25 Cr</b>
+                                </div>
+
+                                <div class="property_info">
+                                    <h3><a href="javascript:void(0);">Apollo Towers</a></h3>
+                                    <p>Whitefield, Banglore East</p>
+                                </div>
+
+                                <div class="property_feature">
+                                    <span>2, 3, 4 BHK Apartment</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="property_img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/property/prop4.jpg" alt="property-img">
+                                </a>
+                                <span class="badge">Featured</span>
+                            </div>
+
+                            <div class="card property_details">
+                                <div class="property_price">
+                                    <b>₹ 90 Lacs - 3.25 Cr</b>
+                                </div>
+
+                                <div class="property_info">
+                                    <h3><a href="javascript:void(0);">Green City</a></h3>
+                                    <p>Tejas Road, Kolkata</p>
+                                </div>
+
+                                <div class="property_feature">
+                                    <span>2, 3 BHK Apartment</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="property_img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/property/prop5.jpg" alt="property-img">
+                                </a>
+                                <span class="badge">Featured</span>
+                            </div>
+
+                            <div class="card property_details">
+                                <div class="property_price">
+                                    <b>Price On Request</b>
+                                </div>
+
+                                <div class="property_info">
+                                    <h3><a href="javascript:void(0);">Ganga Paradise</a></h3>
+                                    <p>Andheri East, Mumbai</p>
+                                </div>
+
+                                <div class="property_feature">
+                                    <span>1, 2, 3 BHK Apartment</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="property_img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/property/prop6.jpg" alt="property-img">
+                                </a>
+                                <span class="badge">Featured</span>
+                            </div>
+
+                            <div class="card property_details">
+                                <div class="property_price">
+                                    <b>Price On Request</b>
+                                </div>
+
+                                <div class="property_info">
+                                    <h3><a href="javascript:void(0);">Swastik Paradise</a></h3>
+                                    <p>Pratap Nagar, Ahmedabad</p>
+                                </div>
+
+                                <div class="property_feature">
+                                    <span>3, 4 BHK Apartment</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- /Property Ends -->
+
+        <!--====== Services Section ======-->
+        <section id="services" class="section">
+            <div class="services_bg">
+                <div class="container">
+                    <div class="title bg_title">
+                        <h2>Why choose us</h2>
+                        <p>- We offer perfect real estate services -</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="wrapper services_wrapper">
+                    <div class="card services_card">
+                        <div class="services_img">
+                            <img src="assets/img/services/service-1.svg" alt="service-img">
+                        </div>
+
+                        <div class="services_txt">
+                            <h5>Find your future home</h5>
+                            <p>We help you to find your new Home by offering perfect real estate service</p>
+                        </div>
+                    </div>
+
+                    <div class="card services_card">
+                        <div class="services_img">
+                            <img src="assets/img/services/service-2.svg" alt="service-img">
+                        </div>
+
+                        <div class="services_txt">
+                            <h5>Budget friendly</h5>
+                            <p>Huge number of properties available with lowest commission.</p>
+                        </div>
+                    </div>
+
+                    <div class="card services_card">
+                        <div class="services_img">
+                            <img src="assets/img/services/service-3.svg" alt="service-img">
+                        </div>
+
+                        <div class="services_txt">
+                            <h5>Trusted by thousands</h5>
+                            <p>We have large number of user engagement & satisfied customers</p>
+                        </div>
+                    </div>
+
+                    <div class="card services_card">
+                        <div class="services_img">
+                            <img src="assets/img/services/service-4.svg" alt="service-img">
+                        </div>
+
+                        <div class="services_txt">
+                            <h5>List your own property</h5>
+                            <p>Register on our portal and start selling or renting your properties</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Services Ends -->
+
+        <!--====== City Section ======-->
+        <section id="city" class="section">
+            <div class="container">
+                <div class="title">
+                    <h2>Popular Cities</h2>
+                    <p>- Explore real estate in top cities -</p>
+                </div>
+
+                <div class="wrapper city_wrapper">
+                    <div class="city_card city_item_1">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/city/mumbai.jpg" alt="city-img">
+                            <div class="city_txt">
+                                <span>Mumbai</span><br>
+                                <small>440+ Properties</small>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="city_card city_item_2">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/city/delhi.jpg" alt="city-img">
+                            <div class="city_txt">
+                                <span>Delhi / NCR</span><br>
+                                <small>350+ Properties</small>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="city_card city_item_3">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/city/bangalore.jpg" alt="city-img">
+                            <div class="city_txt">
+                                <span>Bangalore</span><br>
+                                <small>204+ Properties</small>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="city_card city_item_4">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/city/kolkata.jpg" alt="city-img">
+                            <div class="city_txt">
+                                <span>Kolkata</span><br>
+                                <small>300+ Properties</small>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="city_card city_item_5">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/city/hyderabad.jpg" alt="city-img">
+                            <div class="city_txt">
+                                <span>Hyderabad</span><br>
+                                <small>220+ Properties</small>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="city_card city_item_6">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/city/ahmedabad.jpg" alt="city-img">
+                            <div class="city_txt">
+                                <span>Ahmedabad</span><br>
+                                <small>400+ Properties</small>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="city_card city_item_7">
+                        <a href="javascript:void(0);">
+                            <img src="assets/img/city/chennai.jpg" alt="city-img">
+                            <div class="city_txt">
+                                <span>Chennai</span><br>
+                                <small>280+ Properties</small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /City Ends -->
+
+        <!--====== Testimonials Section ======-->
+        <section id="testi" class="section">
+            <div class="testi_bg">
+                <div class="container">
+                    <div class="title bg_title">
+                        <h2>What our clients say</h2>
+                        <p>- Hear from our satisfied customers -</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="swiper testi_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide card">
+                            <div class="testi_details">
+                                <div class="testi_info">
+                                    <figure class="testi_img">
+                                        <img src="assets/img/testi/testi-1.jpg" alt="testi-img">
+                                    </figure>
+
+                                    <div class="testi_bio">
+                                        <span>Robert Willium</span>
+                                        <br>
+                                        <small>Selling Agent</small>
+                                    </div>
+                                </div>
+
+                                <div class="testi_ratings">
+                                    <span>&starf;&starf;&starf;&starf;</span>
+                                </div>
+                            </div>
+
+                            <blockquote class="testi_review">
+                                " Perferendis odit animi eaque ea eos obcaecati. Soluta labore nemo ratione veniam
+                                deserunt labore nemo. Vitae voluptas consectetur
+                                adipisicing. "
+                            </blockquote>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <div class="testi_details">
+                                <div class="testi_info">
+                                    <figure class="testi_img">
+                                        <img src="assets/img/testi/testi-2.jpg" alt="testi-img">
+                                    </figure>
+
+                                    <div class="testi_bio">
+                                        <span>Alexa Smith</span>
+                                        <br>
+                                        <small>Store Owner</small>
+                                    </div>
+                                </div>
+
+                                <div class="testi_ratings">
+                                    <span>&starf;&starf;&starf;&starf;</span>
+                                </div>
+                            </div>
+
+                            <blockquote class="testi_review">
+                                " Explicabo autem impedit! Earumed sunt, non labore
+                                numquam repudiance suscipit. At quae itaque, anti - lestiae quality molestias and
+                                perspiciatis. "
+                            </blockquote>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <div class="testi_details">
+                                <div class="testi_info">
+                                    <figure class="testi_img">
+                                        <img src="assets/img/testi/testi-3.jpg" alt="testi-img">
+                                    </figure>
+
+                                    <div class="testi_bio">
+                                        <span>Henry Willium</span>
+                                        <br>
+                                        <small>Builder</small>
+                                    </div>
+                                </div>
+
+                                <div class="testi_ratings">
+                                    <span>&starf;&starf;&starf;&starf;</span>
+                                </div>
+                            </div>
+
+                            <blockquote class="testi_review">
+                                " Distinctio odit animi eaque ea eos obcaecati. Soluta labore nemo ratione veniam
+                                deserunt labore nemo. Vitae voluptas consectetur
+                                obcaecatias. "
+                            </blockquote>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <div class="testi_details">
+                                <div class="testi_info">
+                                    <figure class="testi_img">
+                                        <img src="assets/img/testi/testi-4.jpg" alt="testi-img">
+                                    </figure>
+
+                                    <div class="testi_bio">
+                                        <span>Monica Rogers</span>
+                                        <br>
+                                        <small>Advisor</small>
+                                    </div>
+                                </div>
+
+                                <div class="testi_ratings">
+                                    <span>&starf;&starf;&starf;&starf;</span>
+                                </div>
+                            </div>
+
+                            <blockquote class="testi_review">
+                                " Explicabo autem impedit! Earumed sunt, non labore
+                                numquam repudiance suscipit. At quae itaque, anti - lestiae quality molestias and
+                                perspiciatis. "
+                            </blockquote>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <div class="testi_details">
+                                <div class="testi_info">
+                                    <figure class="testi_img">
+                                        <img src="assets/img/testi/testi-5.jpg" alt="testi-img">
+                                    </figure>
+
+                                    <div class="testi_bio">
+                                        <span>Jacob Thomson</span>
+                                        <br>
+                                        <small>Advocate</small>
+                                    </div>
+                                </div>
+
+                                <div class="testi_ratings">
+                                    <span>&starf;&starf;&starf;&starf;</span>
+                                </div>
+                            </div>
+
+                            <blockquote class="testi_review">
+                                " Perferendis odit animi eaque ea eos obcaecati. Soluta labore nemo ratione veniam
+                                deserunt labore nemo. Vitae voluptas consectetur
+                                adipisicing. "
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- /Testimonials Ends -->
+
+        <!--====== Partners Section ======-->
+        <section id="partners" class="section">
+            <div class="container">
+                <div class="title">
+                    <h2>Our Partners</h2>
+                    <p>- The companies that represent us -</p>
+                </div>
+
+                <div class="wrapper partners_wrapper">
+                    <img src="assets/img/partners/partner1.png" alt="partners-img">
+                    <img src="assets/img/partners/partner2.png" alt="partners-img">
+                    <img src="assets/img/partners/partner3.png" alt="partners-img">
+                    <img src="assets/img/partners/partner4.png" alt="partners-img">
+                    <img src="assets/img/partners/partner5.png" alt="partners-img">
+                    <img src="assets/img/partners/partner6.png" alt="partners-img">
+                </div>
+            </div>
+        </section>
+        <!-- /Partners Ends -->
+
+        <!--====== Blog Section ======-->
+        <section id="blog" class="section">
+            <div class="container">
+                <div class="title">
+                    <h2>Recent blogs</h2>
+                    <p>- Read our latest newsfeeds -</p>
+                </div>
+
+                <div class="swiper blog_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="blog_img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/blog/blog1.jpg" alt="blog-img">
+                                </a>
+                            </div>
+
+                            <div class="card blog_details">
+                                <div class="blog_meta blog_meta_top">
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/testi/testi-5.jpg" alt="author-img" class="author_img">
+                                        <span>By Admin</span>
+                                    </a>
+
+                                    <a href="javascript:void(0);">
+                                        <i class='bx bxs-comment-detail'></i>
+                                        <span>57 comments</span>
+                                    </a>
+                                </div>
+
+                                <div class="blog_title">
+                                    <h3><a href="javascript:void(0);">What to do a year before buying a new
+                                            apartment?</a>
+                                    </h3>
+                                </div>
+
+                                <div class="blog_meta blog_meta_bottom">
+                                    <span class="blog_date"><i class='bx bxs-calendar'></i> Jan 01, 2021</span>
+
+                                    <a href="javascript:void(0);" class="read_btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="blog_img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/blog/blog2.jpg" alt="blog-img">
+                                </a>
+                            </div>
+
+                            <div class="card blog_details">
+                                <div class="blog_meta blog_meta_top">
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/testi/testi-5.jpg" alt="author-img" class="author_img">
+                                        <span>By Admin</span>
+                                    </a>
+
+                                    <a href="javascript:void(0);">
+                                        <i class='bx bxs-comment-detail'></i>
+                                        <span>66 comments</span>
+                                    </a>
+                                </div>
+
+                                <div class="blog_title">
+                                    <h3><a href="javascript:void(0);">8 Tips to help you finding your future home</a>
+                                    </h3>
+                                </div>
+
+                                <div class="blog_meta blog_meta_bottom">
+                                    <span class="blog_date"><i class='bx bxs-calendar'></i> Aug 04, 2021</span>
+
+                                    <a href="javascript:void(0);" class="read_btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="blog_img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/blog/blog3.jpg" alt="blog-img">
+                                </a>
+                            </div>
+
+                            <div class="card blog_details">
+                                <div class="blog_meta blog_meta_top">
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/testi/testi-5.jpg" alt="author-img" class="author_img">
+                                        <span>By Admin</span>
+                                    </a>
+
+                                    <a href="javascript:void(0);">
+                                        <i class='bx bxs-comment-detail'></i>
+                                        <span>48 comments</span>
+                                    </a>
+                                </div>
+
+                                <div class="blog_title">
+                                    <h3><a href="javascript:void(0);">Why is it important to have a spacious home?</a>
+                                    </h3>
+                                </div>
+
+                                <div class="blog_meta blog_meta_bottom">
+                                    <span class="blog_date"><i class='bx bxs-calendar'></i> Nov 18, 2021</span>
+
+                                    <a href="javascript:void(0);" class="read_btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="blog_img">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/img/blog/blog4.jpg" alt="blog-img">
+                                </a>
+                            </div>
+
+                            <div class="card blog_details">
+                                <div class="blog_meta blog_meta_top">
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/testi/testi-5.jpg" alt="author-img" class="author_img">
+                                        <span>By Admin</span>
+                                    </a>
+
+                                    <a href="javascript:void(0);">
+                                        <i class='bx bxs-comment-detail'></i>
+                                        <span>25 comments</span>
+                                    </a>
+                                </div>
+
+                                <div class="blog_title">
+                                    <h3><a href="javascript:void(0);">The most inspiring interior designs of 2021</a>
+                                    </h3>
+                                </div>
+
+                                <div class="blog_meta blog_meta_bottom">
+                                    <span class="blog_date"><i class='bx bxs-calendar'></i> Dec 31, 2021</span>
+
+                                    <a href="javascript:void(0);" class="read_btn">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!-- /Blog Ends -->
+
+        <!--====== Subscribe Section ======-->
+        <section id="subs">
+            <div class="container">
+                <div class="wrapper subs_wrapper">
+                    <h3>Subscribe to our Newsletter</h3>
+                    <form action="#">
+                        <div class="subs_box">
+                            <input type="email" class="subs_mail" placeholder="Enter your email" required>
+                            <button type="submit" class="btn subs_btn">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- /Subscribe Ends -->
+
+        <!--====== Back-to-Top Btn ======-->
+        <div id="back_top" title="Back to Top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+            </svg>
+        </div>
+        <!-- /Back-to-Top Ends -->
+
+        <!--====== Account Modal ======-->
+        <section id="account">
+            <div class="container">
+                <div class="swiper account_swiper">
+                    <div class="swiper-wrapper">
+
+                        <!--- Login-Modal --->
+                        <div class="swiper-slide">
+                            <div class="account_head">
+                                <h3>Login</h3>
+                                <p>Doesn't have an Account yet?<span class="swiper-button-next">&#160; Register</span>
+                                </p>
+                            </div>
+
+                            <div class="account_main">
+                                <form action="">
+                                    <div class="input_box mail_box">
+                                        <input type="email" class="mail" required>
+                                        <label>Your Email*</label>
+                                    </div>
+
+                                    <div class="input_box pass_box">
+                                        <input type="password" class="pass" required>
+                                        <label>Your Password*</label>
+                                    </div>
+
+                                    <div class="login_actions">
+                                        <div class="check_box">
+                                            <input type="checkbox" id="remember">
+                                            <label for="remember">Remember Me</label>
+                                        </div>
+                                        <button type="button" class="forgot_pass">Forgot Password?</button>
+                                    </div>
+
+                                    <button type="submit" class="btn account_btn">Login</button>
+                                </form>
+                            </div>
+
+                            <div class="account_foot">
+                                <p>Or Login with</p>
+
+                                <div class="login_options">
+                                    <a href="javascript:void(0);" class="google_btn">
+                                        <i class='bx bxl-google'></i>
+                                        <span>Google</span>
+                                    </a>
+
+                                    <a href="javascript:void(0);" class="facebook_btn">
+                                        <i class='bx bxl-facebook'></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--- Register-Modal --->
+                        <div class="swiper-slide">
+                            <div class="account_head">
+                                <h3>Register</h3>
+                                <p>Already have an Account?<span class="swiper-button-prev">&#160; Login</span></p>
+                            </div>
+
+                            <div class="account_main">
+                                <form action="">
+                                    <div class="input_box name_box">
+                                        <input type="text" class="name" required>
+                                        <label>Name*</label>
+                                    </div>
+
+                                    <div class="input_box mail_box">
+                                        <input type="email" class="mail" required>
+                                        <label>Email*</label>
+                                    </div>
+
+                                    <div class="input_box pass_box">
+                                        <input type="password" class="pass" required>
+                                        <label>Password*</label>
+                                    </div>
+
+                                    <div class="num_box">
+                                        <select>
+                                            <option value="91">+91 IND</option>
+                                            <option value="1">+1 USA</option>
+                                            <option value="61">+61 AUS</option>
+                                            <option value="93">+93 AFG</option>
+                                            <option value="33">+33 FRA</option>
+                                            <option value="852">+852 HKG</option>
+                                            <option value="62">+62 IDN</option>
+                                            <option value="974">+974 QAT</option>
+                                            <option value="7">+7 RUS</option>
+                                            <option value="966">+966 SAU</option>
+                                        </select>
+
+                                        <div class="input_box">
+                                            <input type="tel" class="num" min="0" max="9" required>
+                                            <label>Mobile Number*</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="check_box">
+                                        <input type="checkbox" id="agree">
+                                        <label for="agree">Agree to our <a href="javascript:void(0)">Terms &
+                                                Conditions.</a></label>
+                                    </div>
+
+                                    <button type="submit" class="btn account_btn">Register</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="close_btn account_close_btn" title="Close">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Account Modal Ends -->
+
+    </main>
+
+    <!--====== Footer Section ======-->
+    <footer id="footer">
+        <div class="container">
+
+            <div class="wrapper footer_wrapper">
+
+                <div class="foot_about">
+                    <h4>EstateX</h4>
+                    <h6>Find your next dream Home with EstateX. We provide right choice of Properties that you need.
+                    </h6>
+
+                    <p>Download the App -</p>
+                    <a href="javascript:void(0);"><img src="assets/img/googleplay.png" alt=""></a>
+
+                    <a href="javascript:void(0);"><img src="assets/img/appstore.png" alt=""></a>
+                </div>
+
+                <div class="foot_menu">
+                    <h5 class="menu_title">Quick Links</h5>
+                    <ul>
+                        <li><a href="javascript:void(0);">About us</a></li>
+                        <li><a href="javascript:void(0);">Our Services</a></li>
+                        <li><a href="javascript:void(0);">Price Trends</a></li>
+                        <li><a href="javascript:void(0);">Dealers / Builders</a></li>
+                        <li><a href="javascript:void(0);">Sitemap</a></li>
+                    </ul>
+                </div>
+
+                <div class="foot_menu">
+                    <h5 class="menu_title">Useful Links</h5>
+                    <ul>
+                        <li><a href="javascript:void(0);">Help center</a></li>
+                        <li><a href="javascript:void(0);">Careers with us</a></li>
+                        <li><a href="javascript:void(0);">Privacy policy</a></li>
+                        <li><a href="javascript:void(0);">Terms & conditions</a></li>
+                        <li><a href="javascript:void(0);">Report a problem</a></li>
+                    </ul>
+                </div>
+
+                <div class="foot_menu foot_contact">
+                    <h5 class="menu_title">Contact Info</h5>
+                    <ul>
+                        <li>
+                            <a href="tel:+">
+                                <i class='bx bxs-phone'></i>
+                                <span>1800 11 9099</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="mailto:">
+                                <i class='bx bxs-envelope'></i>
+                                <span>info@estatex.com</span>
+                            </a>
+                        </li>
+
+                        <li class="foot_social_links">
+                            <p>Connect with us on -</p>
+                            <a href="javascript:void(0);"><i class='bx bxl-facebook'></i></a>
+                            <a href="javascript:void(0);"><i class='bx bxl-twitter'></i></a>
+                            <a href="javascript:void(0);"><i class='bx bxl-linkedin'></i></a>
+                            <a href="javascript:void(0);"><i class='bx bxl-instagram'></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="foot_copy">
+                <p class="copyright">&#169;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    &#160;EstateX. All Rights Reserved.
+                </p>
+
+                <p class="creator">Designed & Built by | <a href="https://gulshansongara.netlify.app">Gulshan
+                        Songara</a>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- /Footer Ends -->
+
+    <!--====== JavaScript Files ======-->
+    <script src="assets/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/nice-select/js/nice-select2.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
