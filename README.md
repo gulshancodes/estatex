@@ -1,6 +1,6 @@
 ## EstateX - Real Estate Website
 
-### [Demo Link](https://estatex.netlify.app) 🔗
+### [Demo Link](https://estatex.netlify.app/) 🔗
 
 
 <br/>
