@@ -2,7 +2,7 @@
 
 ### [Demo Link](https://estatex.netlify.app/) 🔗
 
-EstateX is a clean, modern Real Estate website and has a simple yet stylish UI. It includes Property Listing Page, Register Page, Properties Slider and the rest. It is completely build with **SASS** which makes it more compatible with all the Browsers.
+A multi-page Real Estate website with simple yet stylish UI and a clean design pattern. It includes Property Listing Page, Register Page, Properties Slider and the rest. It is completely build with **SASS** which makes it more compatible with all the Browsers.
 <br/>
 
 ## Features:
@@ -23,7 +23,7 @@ EstateX is a clean, modern Real Estate website and has a simple yet stylish UI. 
 
 ## Author:
 
-- **Gulshan Songara** - **[Portfolio Website](https://gulshansongara.netlify.app)**, **[Linkedin](https://www.linkedin.com/in/gulshan-songara-75084214b/)** 
+- **Gulshan Songara** - **[Portfolio Website](https://gulshansongara.netlify.app)**, **[Linkedin](https://www.linkedin.com/in/gulshansongara/)** 
 <br/>
 
 ## License:
