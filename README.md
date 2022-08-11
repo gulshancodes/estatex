@@ -13,7 +13,7 @@ A multi-page Real Estate website with simple yet stylish UI and a clean design p
 - #### **No Additional Libraries ❌**
 <br/>
 
-## Technologies used:
+## Languages used:
 
 - #### **HTML**
 - #### **CSS**
